@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--DEVELOPER: Scott Armstrong-McIntosh, IS117-007, Fall 2025-->
+
+<head>
+    <meta charset="utf-8">
+    <Title>Home Page</Title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="Styles/home.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="Images/dgnew.png" width="30" height="30" alt="logo"> Dragons and Giants
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Main_Pages/World.html">World Lore</a>
+                </li>
+
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <a class="nav-link" href="Main_Pages/Campagin.html">Campagin Lore</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <div class="btn-group">
+                        <a href="Main_Pages/Faction.html" class="btn nav-link text-black">Factions</a>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="Main_Pages/Factions/Silverkeep.html">Silverkeep</a>
+                            <a class="dropdown-item" href="Main_Pages/Factions/COD.html">Councel of Dragons</a>
+                            <a class="dropdown-item" href="Main_Pages/Factions/COG.html">Councel of Giants</a>
+                            <a class="dropdown-item" href="Main_Pages/Factions/Human.html">Human Kingdom</a>
+                            <a class="dropdown-item" href="Main_Pages/Factions/OoB.html">Order of Blades</a>
+                            <a class="dropdown-item" href="Main_Pages/Factions/Royals.html">The Royals</a>
+                            <a class="dropdown-item" href="Main_Pages/Factions/Cults.html">Cults</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <a class="nav-link" href="Main_Pages/Map.html">Map</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <a class="nav-link" href="Main_Pages/Contact.html">Contact Us</a>
+                    </div>
+                </li>
+
+
+            </ul>
+
+
+    </nav>
+
+    <br>
+
+    <div class="container" id="home_text">
+        <h2 class="text-left">Overview</h2>
+        <p class="text-left">&emsp; <em>Dragons and Giants</em> is a Dungeons and Dragons Campagin run by me for several of my friends.
+        This site serves as a way to keep track of the events of the campagin as well as let others see what has been going on.
+        Throughout this site you will see various bits of important information about the campagin. World lore will tell you about the campagin before the players were involved in the story.
+        Campagin Lore is the events that have happened since the players entered the story. Factions will let you know about the various factions in the campagin. Finally Map will show you the overall map for 
+        the campagin and a brief description of the important locations. This site is also written, with only information that the players currently have and know to avoid spoilers, as such some important characters
+        are either refered to by their title or unkown since the players do not have that informations.
+    </p>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <h2 class="text-left">Start Exploring</h2>
+        <div id="HomeCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#HomeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#HomeCarousel" data-slide-to="1"></li>
+                <li data-target="#HomeCarousel" data-slide-to="2"></li>
+                <li data-target="#HomeCarousel" data-slide-to="3"></li>
+                <li data-target="#HomeCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="Main_Pages/Map.html"><img src="Images/Carosel/map.png" class="d-block w-100" alt="Map page Link" ></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Main_Pages/World.html"><img src="Images/Carosel/world.png" class="d-block w-100" alt="World Lore page link"></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Main_Pages/Campagin.html"> <img src="Images/Carosel/campagin.png" class="d-block w-100" alt="Campagin Lore page link"></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Main_Pages/Faction.html"> <img src="Images/Carosel/factions.png" class="d-block w-100" alt="Factions page link"></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Main_Pages/Contact.html"> <img src="Images/Carosel/contact.png" class="d-block w-100" alt="Contact page link"></a>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#HomeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#HomeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container" id="cards">
+        <h2 class="text-center">Meet the Players</h2>
+        
+        <br>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/P_Faction/Players/Bakar.gif" class="card-img-top" alt="Player Character Bakar">
+                    <div class="card-body">
+                        <h5 class="card-title">Bakar</h5>
+                        <p class="card-text">Leonin 18th Level Paladin </p>
+                        <a href="Main_Pages/Factions/Sub_Factions/Players.html" target="bakar" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/P_Faction/Players/klink.gif" class="card-img-top" alt="Player Character Klink">
+                    <div class="card-body">
+                        <h5 class="card-title">Klink</h5>
+                        <p class="card-text">Goblin 18th Level Cleric</p>
+                        <a href="Main_Pages/Factions/Sub_Factions/Players.html" target="klink" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/P_Faction/Players/Shalith.png" class="card-img-top" alt="Player Character Shalith">
+                    <div class="card-body">
+                        <h5 class="card-title">Shalith</h5>
+                        <p class="card-text">Tiefling 18th Level Barbarian</p>
+                        <a href="Main_Pages/Factions/Sub_Factions/Players.html" target="shalith"" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/P_Faction/Players/Thrice.gif" class="card-img-top" alt="Player Character Thrice">
+                    <div class="card-body">
+                        <h5 class="card-title">Thrice</h5>
+                        <p class="card-text">Goliath 18th Level Fighter</p>
+                        <a href="Main_Pages/Factions/Sub_Factions/Players.html" target="thrice"" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="Images/P_Faction/Players/tifa.gif" class="card-img-top" alt="Player Character Tifatina">
+                    <div class="card-body">
+                        <h5 class="card-title">Tifatina</h5>
+                        <p class="card-text">Gnome 18th Level Artificer</p>
+                        <a href="Main_Pages/Factions/Sub_Factions/Players.html" target="tifa" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<br>
+<br>
+</body>
+
+<br>
+
+<footer>
+    <div class="fixed-bottom d-block p-2 bg-secondary text-black" id="foot">
+        <span><p class="text-center">&copy;Scott Armstrong-McIntosh 11/25/2025 &emsp; <a href="legal/TOS.html">Terms of Service</a></p></span>
+    </div>
+</footer>
+
+</html>

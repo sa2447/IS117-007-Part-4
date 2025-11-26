@@ -1,0 +1,19 @@
+#left{
+    border:2px solid black; 
+    & img{
+        position: relative;
+        top:-50px;
+        height:125px;
+        width:125px;
+        float:right;
+    }
+}
+
+#right{
+    & img{
+        position: relative;
+        height:125px;
+        width:125px;
+        float:left;
+    } 
+}
